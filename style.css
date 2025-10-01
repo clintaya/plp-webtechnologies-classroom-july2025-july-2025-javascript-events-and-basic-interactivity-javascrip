@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: blanchedalmond;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: indianred;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px 0;
+  background: darkblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: grey;
+}
+
+#box {
+  margin-top: 10px;
+  padding: 15px;
+  background: lightblue;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>JavaScript Interactive Page</h1>
+    <p>Event Handling | DOM Manipulation | Form Validation</p>
+  </header>
+
+  <main>
+    <!-- Part 1: Event Handling -->
+    <section>
+      <h2>Event Handling</h2>
+      <button id="showMessageBtn">Show Message</button>
+      <button id="toggleBoxBtn">Toggle Box</button>
+      <div id="messageArea"></div>
+      <div id="box" class="hidden">I am a toggled box!</div>
+    </section>
+
+    <!-- Part 2: Interactive Features -->
+    <section>
+      <h2>Interactive Elements</h2>
+      <button id="addItemBtn">Add List Item</button>
+      <ul id="dynamicList">
+        <li>Item 1</li>
+      </ul>
+      <button id="changeColorBtn">Change Background Color</button>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section>
+      <h2>Form Validation</h2>
+      <form id="signupForm">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <span id="usernameError" class="error"></span><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <span id="emailError" class="error"></span><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <span id="passwordError" class="error"></span><br>
+
+        <button type="submit">Sign Up</button>
+      </form>
+      <p id="formFeedback"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
